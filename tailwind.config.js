@@ -4,12 +4,20 @@ module.exports = {
 		'./app/**/*.{js,ts,jsx,tsx,mdx}',
 		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
 		'./components/**/*.{js,ts,jsx,tsx,mdx}',
-
-		// Or if using `src` directory:
-		'./src/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				fontBold: ['Poppins Semi-Bold', 'sans-serif'],
+				fontRegular: ['Poppins Regular', 'sans-serif'],
+				fontMedium: ['Poppins Medium', 'sans-serif'],
+			},
+			colors: {
+				'primary': '#27272A',
+				'secondary': '##B91C1C',
+				'tertiary': '#000000'
+			}
+		},
 	},
 	plugins: [],
 };
