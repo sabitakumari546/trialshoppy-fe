@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import './basicInfo.css';
 
 @layer base {
     @font-face {
